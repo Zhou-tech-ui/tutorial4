@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.009" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.013" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -15,10 +15,10 @@
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\19747\AppData\Local\Temp\surefire5410913397010495449\surefirebooter3787966623687707193.jar C:\Users\19747\AppData\Local\Temp\surefire5410913397010495449 2025-10-16T16-43-30_729-jvmRun1 surefire1650264026975234678tmp surefire_05170883042662164450tmp"/>
+    <property name="sun.java.command" value="C:\Users\19747\AppData\Local\Temp\surefire2944153007187404244\surefirebooter4584185811392877643.jar C:\Users\19747\AppData\Local\Temp\surefire2944153007187404244 2025-10-16T17-42-25_817-jvmRun1 surefire1845853858768534936tmp surefire_01270126222972182862tmp"/>
     <property name="surefire.test.class.path" value="E:\tutorial4\target\test-classes;E:\tutorial4\target\classes;C:\Users\19747\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\19747\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\19747\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\19747\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\19747\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\19747\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\19747\.m2\repository\org\junit\jupiter\junit-jupiter\6.0.0\junit-jupiter-6.0.0.jar;C:\Users\19747\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.0.0\junit-jupiter-params-6.0.0.jar;C:\Users\19747\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\19747"/>
@@ -26,13 +26,12 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre"/>
     <property name="basedir" value="E:\tutorial4"/>
-    <property name="style.color" value="always"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\19747\AppData\Local\Temp\surefire5410913397010495449\surefirebooter3787966623687707193.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\19747\AppData\Local\Temp\surefire2944153007187404244\surefirebooter4584185811392877643.jar"/>
     <property name="sun.boot.class.path" value="E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\lib\resources.jar;E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\lib\rt.jar;E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\lib\sunrsasign.jar;E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\lib\jsse.jar;E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\lib\jce.jar;E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\lib\charsets.jar;E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\lib\jfr.jar;E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -44,15 +43,12 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="GBK"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="E:\IntelliJ IDEA 2025.2.2\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="localRepository" value="C:\Users\19747\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi"/>
     <property name="java.io.tmpdir" value="C:\Users\19747\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2025.2.2"/>
     <property name="java.version" value="1.8.0_392"/>
     <property name="user.dir" value="E:\tutorial4"/>
     <property name="os.arch" value="amd64"/>
-    <property name="jansi.passthrough" value="true"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
@@ -63,8 +59,12 @@
     <property name="java.specification.maintenance.version" value="5"/>
     <property name="java.ext.dirs" value="E:\java-jdk\java-1.8.0-openjdk-1.8.0.392-1.b08.redhat.windows.x86_64\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="maven.repo.local" value="C:\Users\19747\.m2\repository"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAddition" classname="org.example.CalcTest" time="0.005"/>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0"/>
+  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0.007">
+    <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
+	at org.example.CalcTest.testSubtraction(CalcTest.java:16)
+]]></failure>
+  </testcase>
 </testsuite>

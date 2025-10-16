@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ebd9fe1-0e43-4c62-8579-a8851ece70f1" name="Changes" comment="" />
+    <list default="true" id="5ebd9fe1-0e43-4c62-8579-a8851ece70f1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalcTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/CalcTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +110,7 @@
       <updated>1760279971435</updated>
       <workItem from="1760279973089" duration="17000" />
       <workItem from="1760603931670" duration="1236000" />
-      <workItem from="1760605188468" duration="691000" />
+      <workItem from="1760605188468" duration="2002000" />
     </task>
     <servers />
   </component>
