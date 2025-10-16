@@ -13,5 +13,5 @@ jobs:
         with:
           java-version: '8'
           distribution: 'temurin'
-      - name: Build with Maven
+      - name: Run Maven build
         run: mvn clean test
